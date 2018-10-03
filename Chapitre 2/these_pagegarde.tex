@@ -1,0 +1,72 @@
+%!TEX encoding = IsoLatin
+
+% Copyright (C) Julien Chiquet
+%
+% This program is free software: you can redistribute it and/or modify
+%  it under the terms of the GNU General Public License as published by
+%  the Free Software Foundation, either version 3 of the License, or
+%  (at your option) any later version.
+%
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%  GNU General Public License for more details.
+%
+% You should have received a copy of the GNU General Public License
+% along with this program.  If not, see <http://www.gnu.org/licenses/>
+
+\documentclass[sommairechap,styleben]{these_gi}
+ \renewcommand{\baselinestretch}{1.2}
+
+  %-------------------- Fix error --------------------%
+ %  (see: http://forum.mathematex.net/latex-f6/erreur-missing-begin-document-t10706.html)
+
+ \makeatletter
+\ifx\@afterindentfalse\@afterindenttrue
+                       \let\@aifORI\@afterindenttrue
+                 \else \let\@aifORI\@afterindentfalse
+                 \fi
+\makeatother
+
+\begin{document}
+
+ %-------------------- RENSEIGNEMENTS SUR LA THESE--------------------%
+
+\titleFR{Capteurs gravimétriques sérigraphiés pour la détection de microparticules aéroportées.}
+
+\titleEN{Screen-printed sensors for airborne particles detection.}
+\abstractFR{Le résumé en français ($\approx$ 1000 caractères)}
+\abstractEN{Le résumé en anglais ($\approx$ 1000 caractères)}
+\keywordsFR{Les mots-clés en français}
+\keywordsEN{Les mots-clés en anglais}
+
+\author{Simon Grall}
+\address{simon.grall@u-bordeaux.fr}
+\universite{Université de Bordeaux : Sciences et Technologies}
+\laboratoire{\textbf{Laboratoire de l'Intégration du Matériau au Système}\\
+Bat. A31\\
+Université de Bordeaux : Sciences et Technologies\\
+$33400$ Talence
+France}\specialite{\'Electronique, Matériaux}
+\datesoutenance{xx xxxxx xxxx}
+\datesoumission{xx xxxxx xxxx}
+\begin{tabular}{llll
+    %$M.$ & \textsc{Philippe Keckhut} & Physicien, LATMOS, & (Rapporteur) \\
+    %& &Université de Versailles Saint Quentin&\\
+    %$M.$ & \textsc{Valéry Shcherbakov}  & Professeur, LAMP, & (Rapporteur) \\
+     %& &Université Clermont-Ferrand 2&\\   
+    %$M.$ & \textsc{Frédéric Parol} & Professeur, LOA,  & (Examinateur) \\
+     %& &Université Lille 1 Sciences et Technologies&\\   
+    %$M.$ & \textsc{Pascal Personne} & Professeur, LAMP, & (Examinateur) \\
+    %& &Université Clermont-Ferrand 2&\\    
+    %$M.$ & \textsc{Jérôme Riedi}  & Maître de Conférences, LOA, & (Co-Directeur de Thèse) \\    
+    %& &Université Lille 1 Sciences et Technologies&\\       
+    %$M.$ & \textsc{Gérard Brogniez} &  Professeur, LOA, &(Directeur de Thèse) \\ 
+    %& &Université Lille 1 Sciences et Technologies&\\    
+  \end{tabular}    
+}
+
+%-------------------- DEBUT DE LA PREFACE --------------------%
+\beforepreface
+
+\end{document}

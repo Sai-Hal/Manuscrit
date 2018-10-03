@@ -1,0 +1,434 @@
+SyncTeX Version:1
+Input:1:C:\Users\sgrall\Documents\Sauvegarde Clef\These\Manuscrit\these_pagegarde.tex
+Input:2:C:\Users\sgrall\Documents\Sauvegarde Clef\These\Manuscrit\these_gi.cls
+Input:3:C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls
+Input:4:C:\Program Files\MiKTeX 2.9\tex\latex\base\bk11.clo
+Input:5:C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty
+Input:6:C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def
+Input:7:C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty
+Input:8:C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def
+Input:9:C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty
+Input:10:C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty
+Input:11:C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def
+Input:12:C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+Input:13:C:\Program Files\MiKTeX 2.9\tex\generic\babel-french\french.ldf
+Input:14:C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def
+Input:15:C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def
+Input:16:C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty
+Input:17:C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+Input:18:C:\Program Files\MiKTeX 2.9\tex\latex\eurosym\eurosym.sty
+Input:19:C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+Input:20:C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+Input:21:C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+Input:22:C:\Program Files\MiKTeX 2.9\tex\latex\appendix\appendix.sty
+Input:23:C:\Program Files\MiKTeX 2.9\tex\latex\base\exscale.sty
+Input:24:C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty
+Input:25:C:\Program Files\MiKTeX 2.9\tex\latex\stmaryrd\stmaryrd.sty
+Input:26:C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\remreset.sty
+Input:27:C:\Users\sgrall\Documents\Sauvegarde Clef\These\Manuscrit\styleben.sty
+Input:28:C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\mathpazo.sty
+Input:29:C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\helvet.sty
+Input:30:C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\courier.sty
+Input:31:C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty
+Input:32:C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty
+Input:33:C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty
+Input:34:C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+Input:35:C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+Input:36:C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+Input:37:C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+Input:38:C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+Input:39:C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+Input:40:C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+Input:41:C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty
+Input:42:C:\Program Files\MiKTeX 2.9\tex\latex\doublestroke\dsfont.sty
+Input:43:C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\mathrsfs.sty
+Input:44:C:\Program Files\MiKTeX 2.9\tex\latex\lettrine\lettrine.sty
+Input:45:C:\Program Files\MiKTeX 2.9\tex\generic\minifp\minifp.sty
+Input:46:C:\Program Files\MiKTeX 2.9\tex\latex\lettrine\lettrine.cfg
+Input:47:C:\Program Files\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty
+Input:48:C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty
+Input:49:C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty
+Input:50:C:\Program Files\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty
+Input:51:C:\Program Files\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty
+Input:52:C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty
+Input:53:C:\Program Files\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty
+Input:54:C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty
+Input:55:C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
+Input:56:C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+Input:57:C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+Input:58:C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty
+Input:59:C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+Input:60:C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+Input:61:C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
+Input:62:C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty
+Input:63:C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+Input:64:C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+Input:65:C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+Input:66:C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+Input:67:C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+Input:68:C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\backref.sty
+Input:69:C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
+Input:70:C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty
+Input:71:C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+Input:72:C:\Program Files\MiKTeX 2.9\tex\latex\minitoc\minitoc.sty
+Input:73:C:\Program Files\MiKTeX 2.9\tex\latex\minitoc\mtcmess.sty
+Input:74:C:\Users\sgrall\Documents\Sauvegarde Clef\These\Manuscrit\these_pagegarde.mtc0
+Input:75:C:\Program Files\MiKTeX 2.9\tex\latex\minitoc\english.mld
+Input:76:C:\Program Files\MiKTeX 2.9\tex\latex\minitoc\english.mld
+Input:77:C:\Program Files\MiKTeX 2.9\tex\latex\minitoc\french.mld
+Input:78:C:\Program Files\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty
+Input:79:C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty
+Input:80:C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
+Input:81:C:\Users\sgrall\Documents\Sauvegarde Clef\These\Manuscrit\these_pagegarde.aux
+Input:82:C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pplj.fd
+Input:83:C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii
+Input:84:C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
+Input:85:C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+Input:86:C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+Input:87:C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+Input:88:C:\Users\sgrall\Documents\Sauvegarde Clef\These\Manuscrit\these_pagegarde.out
+Input:89:C:\Users\sgrall\Documents\Sauvegarde Clef\These\Manuscrit\these_pagegarde.out
+Input:90:C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pplx.fd
+Input:91:C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlzplm.fd
+Input:92:C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omszplm.fd
+Input:93:C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxzplm.fd
+Input:94:C:\Program Files\MiKTeX 2.9\tex\latex\stmaryrd\ustmry.fd
+Input:95:C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1zplm.fd
+Input:96:C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd
+Output:pdf
+Magnification:1000
+Unit:1
+X Offset:0
+Y Offset:0
+Content:
+!6686
+{1
+[1,70:4736286,56278552:29048514,51542266,0
+h1,70:4736286,4736286:0,0,0
+[1,70:4736286,4736286:0,0,0
+(1,70:4736286,-2031861:0,0,0
+k1,70:4736286,-2031861:-440813
+)
+]
+[1,70:4736286,56278552:29048514,51542266,0
+[1,70:5242880,56278552:28541920,58244632,0
+[1,70:5242880,0:28541920,1966080,0
+(1,70:5242880,0:28541920,0,0
+h1,70:5242880,0:28541920,0,0
+)
+]
+[1,70:5242880,54478740:28541920,52512660,0
+(1,70:5242880,2686976:28541920,519196,15428
+h1,70:5242880,2686976:1114112,0,0
+x1,70:7132737,2686976
+g1,70:7341564,2686976
+x1,70:8654804,2686976
+x1,70:9366681,2686976
+x1,70:9706831,2686976
+g1,70:9915658,2686976
+x1,70:10095062,2686976
+g1,70:10303889,2686976
+$1,70:10303889,2686976
+x1,70:10843538,2686976
+x1,70:11406150,2686976
+x1,70:11968762,2686976
+x1,70:12531374,2686976
+x1,70:13093986,2686976
+$1,70:13116949,2686976
+k1,70:33784801,2686976:20667852
+g1,70:33784801,2686976
+)
+(1,70:5242880,4692374:28541920,679948,19817
+k1,70:7993885,4692374:2751005
+(1,70:7993885,4692374:0,0,0
+g1,70:7993885,4692374
+g1,70:7993885,4692374
+g1,70:7635075,4692374
+(1,70:7635075,4692374:0,0,0
+)
+g1,70:7993885,4692374
+)
+x1,70:12870072,4692374
+g1,70:13144694,4692374
+x1,70:14193164,4692374
+g1,70:14467786,4692374
+x1,70:17770795,4692374
+x1,70:18767360,4692374
+g1,70:19041982,4692374
+x1,70:19277911,4692374
+g1,70:19552533,4692374
+x1,70:23403842,4692374
+g1,70:23678464,4692374
+x1,70:24622182,4692374
+g1,70:24896804,4692374
+x1,70:25475303,4692374
+x1,70:31033796,4692374
+g1,70:31033796,4692374
+k1,70:33784800,4692374:2751004
+)
+(1,70:5242880,7051664:28541920,1174801,5706
+k1,70:17337890,7051664:12095010
+h1,70:17337890,7051664:0,0,0
+x1,70:18337408,7051664
+x1,70:21689789,7051664
+g1,70:21689789,7051664
+k1,70:33784799,7051664:12095010
+)
+(1,70:5242880,8939098:28541920,568983,222560
+k1,70:15022134,8939098:9779254
+h1,70:15022134,8939098:0,0,0
+x1,70:16709029,8939098
+g1,70:16937881,8939098
+x1,70:19432443,8939098
+g1,70:19661295,8939098
+x1,70:20266848,8939098
+g1,70:20495700,8939098
+x1,70:22494024,8939098
+g1,70:22722876,8939098
+x1,70:23580087,8939098
+g1,70:23808939,8939098
+x1,70:24005547,8939098
+g1,70:24005547,8939098
+k1,70:33784801,8939098:9779254
+)
+(1,70:5242880,10826532:28541920,566624,16515
+k1,70:12459545,10826532:7216665
+h1,70:12459545,10826532:0,0,0
+x1,70:15690207,10826532
+g1,70:15919059,10826532
+x1,70:16792785,10826532
+g1,70:17021637,10826532
+x1,70:17414853,10826532
+x1,70:21653721,10826532
+g1,70:21882573,10826532
+x1,70:22756299,10826532
+g1,70:22985151,10826532
+x1,70:25737663,10826532
+x1,70:26568135,10826532
+g1,70:26568135,10826532
+k1,70:33784800,10826532:7216665
+)
+(1,70:5242880,12713966:28541920,568983,220987
+k1,70:16519106,12713966:11276226
+h1,70:16519106,12713966:0,0,0
+x1,70:18183982,12713966
+g1,70:18412834,12713966
+x1,70:19034902,12713966
+g1,70:19263754,12713966
+x1,70:22508573,12713966
+g1,70:22508573,12713966
+k1,70:33784799,12713966:11276226
+)
+(1,70:5242880,14601400:28541920,718405,115212
+k1,70:14158002,14601400:8915122
+h1,70:14158002,14601400:0,0,0
+x1,70:14551218,14601400
+g1,70:14734300,14601400
+x1,70:17268970,14601400
+x1,70:20072600,14601400
+g1,70:20301452,14601400
+x1,70:21525926,14601400
+x1,70:23462908,14601400
+x1,70:24293380,14601400
+g1,70:24476462,14601400
+x1,70:24869678,14601400
+g1,70:24869678,14601400
+k1,70:33784800,14601400:8915122
+)
+(1,70:5242880,16488834:28541920,381026,220987
+k1,70:18925589,16488834:13682709
+h1,70:18925589,16488834:0,0,0
+x1,70:20102091,16488834
+g1,70:20102091,16488834
+k1,70:33784800,16488834:13682709
+)
+(1,70:5242880,18376268:28541920,568983,16908
+k1,70:17406990,18376268:12164110
+h1,70:17406990,18376268:0,0,0
+x1,70:19630231,18376268
+g1,70:19859083,18376268
+x1,70:21620691,18376268
+g1,70:21620691,18376268
+k1,70:33784801,18376268:12164110
+)
+(1,70:5242880,27767740:28541920,819335,320486
+k1,70:5397146,27767740:154266
+h1,70:5397146,27767740:0,0,0
+g1,70:5726692,27767740
+x1,70:10298438,27767740
+g1,70:10627984,27767740
+x1,70:12271186,27767740
+x1,70:18227932,27767740
+g1,70:18557478,27767740
+x1,70:24692020,27767740
+g1,70:25021566,27767740
+x1,70:27450695,27767740
+g1,70:27780241,27767740
+x1,70:28676018,27767740
+g1,70:29005564,27767740
+x1,70:33630534,27767740
+k1,70:33784800,27767740:154266
+)
+(1,70:5242880,29497886:28541920,819335,318221
+k1,70:11593973,29497886:6351093
+x1,70:12828356,29497886
+g1,70:13157902,29497886
+x1,70:15437548,29497886
+x1,70:20976415,29497886
+g1,70:21305961,29497886
+x1,70:22861964,29497886
+x1,70:27433708,29497886
+g1,70:27433708,29497886
+k1,70:33784800,29497886:6351092
+)
+(1,70:5242880,38228756:28541920,519196,203086
+k1,70:9782581,38228756:4539701
+h1,70:9782581,38228756:0,0,0
+x1,70:11631883,38228756
+g1,70:11840710,38228756
+x1,70:14741322,38228756
+g1,70:14950149,38228756
+x1,70:15502715,38228756
+g1,70:15711542,38228756
+x1,70:16452124,38228756
+g1,70:16660951,38228756
+x1,70:18512406,38228756
+g1,70:18721233,38228756
+x1,70:20202397,38228756
+g1,70:20411224,38228756
+x1,70:21193428,38228756
+x1,70:21590270,38228756
+x1,70:22577712,38228756
+g1,70:22786539,38228756
+x1,70:23339105,38228756
+g1,70:23547932,38228756
+x1,70:24432037,38228756
+x1,70:24841796,38228756
+g1,70:25050623,38228756
+x1,70:27865838,38228756
+g1,70:28074665,38228756
+x1,70:28856869,38228756
+g1,70:29065696,38228756
+x1,70:29245100,38228756
+g1,70:29245100,38228756
+k1,70:33784800,38228756:4539700
+)
+(1,70:5242880,41162980:28541920,179404,0
+k1,70:19513840,41162980:14270960
+h1,70:19513840,41162980:0,0,0
+(1,70:19513840,41162980:0,179404,0
+$1,70:19513840,41162980
+v1,70:19513840,41162980:0,179404,-179404
+$1,70:19513840,41162980
+)
+g1,70:19513840,41162980
+k1,70:33784800,41162980:14270960
+)
+(1,70:5242880,49893850:28541920,506279,188016
+k1,70:10827073,49893850:5584193
+h1,70:10827073,49893850:0,0,0
+x1,70:14614660,49893850
+g1,70:14823487,49893850
+x1,70:15620761,49893850
+g1,70:15829588,49893850
+x1,70:19935797,49893850
+g1,70:20144624,49893850
+x1,70:21021554,49893850
+g1,70:21230381,49893850
+x1,70:23183738,49893850
+x1,70:24235048,49893850
+g1,70:24443875,49893850
+x1,70:25241149,49893850
+g1,70:25449976,49893850
+x1,70:28200607,49893850
+g1,70:28200607,49893850
+k1,70:33784800,49893850:5584193
+)
+(1,70:5242880,50963395:28541920,488698,163975
+k1,70:18110180,50963395:12867300
+h1,70:18110180,50963395:0,0,0
+x1,70:18548645,50963395
+x1,70:18960558,50963395
+x1,70:19292815,50963395
+x1,70:19432749,50963395
+g1,70:19641576,50963395
+x1,70:20917501,50963395
+g1,70:20917501,50963395
+k1,70:33784801,50963395:12867300
+)
+(1,70:5242880,52032940:28541920,517044,15069
+k1,70:10753878,52032940:5510998
+h1,70:10753878,52032940:0,0,0
+x1,70:14461810,52032940
+g1,70:14670637,52032940
+x1,70:15467911,52032940
+g1,70:15676738,52032940
+x1,70:18188402,52032940
+x1,70:18946206,52032940
+g1,70:19155033,52032940
+x1,70:19334437,52032940
+g1,70:19543264,52032940
+x1,70:22471862,52032940
+g1,70:22680689,52032940
+x1,70:23398307,52032940
+g1,70:23607134,52032940
+x1,70:24047034,52032940
+x1,70:28273803,52032940
+g1,70:28273803,52032940
+k1,70:33784800,52032940:5510997
+)
+(1,70:5242880,53102485:28541920,500898,11481
+k1,70:15788327,53102485:10545447
+h1,70:15788327,53102485:0,0,0
+$1,70:15788327,53102485
+x1,70:17582372,53102485
+$1,70:17582372,53102485
+g1,70:17791199,53102485
+x1,70:18231099,53102485
+x1,70:20557616,53102485
+g1,70:20766443,53102485
+x1,70:23239353,53102485
+g1,70:23239353,53102485
+k1,70:33784800,53102485:10545447
+)
+]
+(1,70:5242880,56278552:28541920,0,0
+h1,70:5242880,56278552:28541920,0,0
+)
+]
+]
+]
+!7281
+}1
+!9
+{2
+[1,70:4736286,56278552:29179110,51542266,0
+[1,70:4736286,4736286:0,0,0
+(1,70:4736286,-2031861:0,0,0
+k1,70:4736286,-2031861:-571409
+)
+]
+[1,70:4736286,56278552:29179110,51542266,0
+[1,70:5373476,56278552:28541920,58244632,0
+[1,70:5373476,0:28541920,1966080,0
+(1,70:5373476,0:28541920,0,0
+h1,70:5373476,0:28541920,0,0
+)
+]
+[1,70:5373476,54478740:0,52512660,0
+h1,70:5373476,2686976:0,0,0
+]
+(1,70:5373476,56278552:28541920,0,0
+h1,70:5373476,56278552:28541920,0,0
+)
+]
+]
+]
+!470
+}2
+Input:97:C:\Users\sgrall\Documents\Sauvegarde Clef\These\Manuscrit\these_pagegarde.aux
+!95
+Postamble:
+Count:226
+!25
+Post scriptum:

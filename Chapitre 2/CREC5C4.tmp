@@ -1,0 +1,381 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[12pt]{report} %ajouter «twoside» lors de l'impression : [12pt,twoside]
+\usepackage[french]{babel}
+\usepackage[ansinew]{inputenc}   
+\usepackage[T1]{fontenc} 
+\usepackage{textgreek}				% symboles grècques sans italique
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[sectionbib]{chapterbib} %biblio par chapitre
+\usepackage[top=2cm, bottom=3cm, left=2cm, right=3cm]{geometry}
+\usepackage[onehalfspacing]{setspace}
+\usepackage{multirow}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{tablefootnote}
+\usepackage{epstopdf}
+\usepackage{pgfplotstable}
+\usepackage{pgfplots}
+% how many levels of text structure should get numbered?
+%     NOTE: this has to be >= 3 for subsubsection to have whatever kind of content before its name in report or book documentclass!
+\setcounter{secnumdepth}{3}
+% how should text structure elements be formatted textually?
+%     chapter
+\renewcommand{\thechapter}{\Roman{chapter}}
+%     section
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+%%     subsection
+%\renewcommand{\thesubsection}{\arabic{chapter}.\arabic{section}.\arabic{subsection}}
+%     subsubsection
+\renewcommand{\thesubsubsection}{\arabic{chapter}.\arabic{section}.\arabic{subsection}.\alph{subsubsection}}
+%----------------------------------------------------------------------------------------
+%	RENEW COMMANDS (Français)
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\contentsname}{Sommaire} %Renomme la Table des matières en "Sommaire"
+\renewcommand{\tablename}{Tableau} %"Table 1" devient "Tableau 1"
+\addto\captionsfrench{\renewcommand{\chaptername}{Chapitre}} %"Chapter 1" devient "Chapitre 1"
+
+
+\setcounter{chapter}{1}
+
+
+% Begin document________________________________________________________________
+\begin{document}
+\tableofcontents
+
+\chapter{Sérigraphie de micropoutres résonantes\\ 
+\noindent\rule{\textwidth}{1pt}
+}
+
+\section*{Introduction}
+Dans ce chapitre, on décrira la fabrication de micropoutres résonnantes actionnées piézoéléctriquement avec un procédé de dépositions successives de couches épaisses par sérigraphie. Les couches sont co-cuites avant d'être polarisées. Un procédé de couche sacrificielle est utilisé pour les parties mobiles libérées. Différentes géométries sont testées. On présente également ici la caractérisation mécanique des résonateurs résultant. 
+%La Figure \ref{procede_global} illustre les étapes principales de la fabrication des micropoutres.
+
+%\begin{figure}[t]
+%\caption{Procédé de fabrication de micropoutres, avec la sérigraphie (a) du plot, (b) de la couche sacrificielle, (c) de l'électrode inférieure, (d) de la partie libérée et (e) de l'électrode supérieure. L'ensemble est soumis à une pression isostatique puis (f) fritté, la couche sacrificielle se décomposant libère la micropoutre.}
+%\label{procede_global}
+%\centering
+%\includegraphics[width=\linewidth]{Images/full_proc}
+%\end{figure}
+
+\section{Agencement des couches et géométrie}
+Les micropoutres résonnantes présentées ici sont fabriquées sur des substrats en alumine de 250 \textmu m d'épaisseur. La partie libérée et le plot sont en zirco-titanate de plomb (PZT). Les électrodes en or prennent en sandwich la partie libérée. Une couche sacrificielle à base polyester soutient les électrodes et la partie libérée jusqu'à l'étape de frittage, durant laquelle la couche sacrificielle se décompose. L'empilement des couches est illustré Figure \ref{empilement}.\\
+
+Différentes géométries sont testées, faisant notamment varier la longueur de la partie libérée entre 8 mm et 1 mm, la largeur variant de 2 mm à 1 mm (voir Tableau \ref{tab_geo}). Plus de détails sont donnés sur les dimensions Figure \ref{empilement} \textbf{3}. Le dessin des électrodes a également évolué pour s'adapter à l'ajout de modules de polarisation et d’acquisition utilisant des pointes de contact sur ressort. La Figure \ref{EI_ES} illustre cette évolution.\\
+\begin{figure}
+\centering
+\includegraphics[width=0.70\linewidth]{Images/empilement}
+\caption{\textbf{1} Vue éclatée et \textbf{2} de profil de l'empilement des différentes couches sérigraphiées pour une micropoutre de $8\times2\times0,1$ mm$^3$, avec (a) le substrat d'alumine, (b) le plot, (c) la couche sacrificielle, (d) l'électrode inférieure, (e) la partie libérée et (f) l'électrode supérieure. \textbf{3} Vue de dessus avec les différentes dimensions (\emph{L} et \emph{w} d'après le Tableau \ref{tab_geo}).}
+\label{empilement}%
+\end{figure}
+
+\begin{table}
+\caption{Tableau résumant les longueurs (\emph{L}) et largeurs (\emph{w}) des différentes micropoutres imprimées. Les dimensions sont indiquées en millimètres.}
+\vspace{0.4cm}
+\label{tab_geo}
+\centering
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|}
+\hline
+\emph{L} 	&8&8&4&4&2&2&1&1\\ \hline 
+\emph{w}		&2&1&2&1&2&1&2&1\\ \hline
+\end{tabular}
+\end{table}
+
+
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.70]{Images/EI_ES}
+\caption{Dessins de la (a) première, (b) deuxième et (c) troisième génération d'électrodes utilisées. \textbf{EI} $=$ électrode inférieure  \textbf{ES} $=$ électrode supérieure.}
+\label{EI_ES}
+\end{figure}
+
+
+
+\section{La sérigraphie}
+
+\subsection{Principe général}
+La sérigraphie consiste à faire passer, à l'aide d'une raclette, une encre à travers un écran, ce dernier faisant office de pochoir pour le motif que l'on souhaite imprimer. L'empilement de différents motifs et de différentes couches permet la fabrication de dispositifs de nature et de tailles variées. Le principe d'impression par sérigraphie est illustré Figure \ref{serigraphie}.\\ 
+Le procédé d'impression des différentes couches se fait dans l'ordre indiqué Tableau \ref{tab_fab}. Après chaque impression, les couches sont séchées à l'étuve à 120°C pendant une durée variant de 20 min à plus d'une heure selon la couche. Ce tableau résume également les différentes encres utilisées ainsi que l'épaisseur après étuvage. Les détails concernant l'impression de chaque couche sont donnés dans les sections suivantes. 
+
+\begin{figure}
+\centering
+\includegraphics[width=0.3\linewidth]{Images/serigraphie}
+\caption{Principe de l'impression par sérigraphie.}
+\label{serigraphie}%
+\end{figure}
+
+\begin{table}
+\caption{Tableau résumant la fabrication des micropoutres par sérigraphie avec \emph{N} l'ordre d'impression. \emph{h} est l'épaisseur des couches après étuvage.}
+\vspace{0.4cm}
+\label{tab_fab}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\emph{N}&Couche 				&Encre							 &\emph{h} (\textmu m)		\\ \hline \hline 
+1&Plot 						      &PZT								 &35		\\ \hline 
+2&Couche sacrificielle	&ESL244T (polyester) &35		\\ \hline 
+3&Électrode inférieure	&ESL8836 (or)				 &15		\\ \hline 
+4&Partie libérée				&PZT								 &120	\\ \hline 
+5&Électrode supérieure 	&ESL8836 (or)				 &8		\\ \hline 
+\end{tabular}
+\end{table}
+
+
+\subsection{Écrans}
+Les écrans de sérigraphie utilisés ici sont de deux types (voir également Figure \ref{mesh_vs_stencil}) :
+\begin{itemize}
+\item Écrans mesh, constitués d'un maillage en acier et d'une couche de résine photosensible négative,
+\item Écrans en acier appelés clinquants, dont le motif d'impression est découpé au laser.
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\linewidth]{images/mesh_vs_stencil.jpg}
+\caption{Schéma de principe des écrans mesh et clinquants. Les écrans mesh sont constitués d'un maillage (ici en acier) et d'une résine photosensible dans laquelle est défini le motif à imprimé par insolation. Le maillage retient l'encre et la laisse passer lors du passage de la raclette. Les clinquants sont faits d'une seule feuille d'acier dans laquelle le motif est découpé au laser. }
+\label{mesh_vs_stencil}
+\end{figure} 
+
+Les écrans mesh sont utilisés pour toutes les couches imprimées exceptée la couche de PZT constituant la partie libérée du dispositif final. Les différents maillages utilisés sont listés dans le tableau \ref{tab_maill}.
+
+\begin{table}[h]
+\caption{Différents écrans mesh utilisés.\tablefootnote{Données de la société DEK}}
+\label{tab_maill}
+\vspace{0.4cm}
+\centering
+\begin{tabular}{|c|c|c|c|c|c|} 
+\hline
+Nombre de	&\multirow{2}{*}{\o~fils (\textmu m)}	&Taille de 							&Épaisseur 							&Tension			&Couche  \\
+fils/pouce&																			&la maille (\textmu m)	&du maillage (\textmu m)&0,5\% (N/m)	&imprimée	\\\hline\hline
+70				&65																		&300										&$140\pm3$							&21-23 				&Co. sacri.\tablefootnote{Couche sacrificielle} \\\hline
+200				&36																		&90											&$80\pm2$								&20-22 				&Plot\\\hline
+325				&24																		&53											&$52\pm1,5$							&13-15 				&EI et ES\tablefootnote{Électrodes inférieure et supérieure}\\\hline
+400				&18																		&45											&$40\pm1$								&8-10  				&Mires\\\hline
+\end{tabular}
+\end{table}
+
+Dans le reste de ces travaux, les écrans mesh sont désignés par leurs nombre de fils par pouce : un écran «70 mesh» désigne par exemple l'écran décrit en première ligne du Tableau~\ref{tab_maill}. Les maillages utilisés vont du plus grossier (70 mesh) au plus fin (400 mesh). Un maillage fin offre une meilleur définition et une épaisseur plus fine, même si ces paramètres dépendent aussi de l'épaisseur de la résine utilisée. Une résine photosensible négative (VOIR NOM RÉSINE) est appliquée sur les écrans, épaisse de 50 \textmu m sur les écrans 70 et 200 mesh, 15 \textmu m sur les autres. Cette résine est soluble dans l'eau avant insolation. La fixation sur les écrans se fait en exploitant cette propriété. Les écrans sont mouillés de façon superficielle à l'aide d'un spray et la résine appliquée juste après à l'aide d'une raclette. Ils sont ensuite séchés à 60°C avant l'insolation aux UV avec le motif désiré.\\
+
+Les clinquants sont constitués d'une feuille d'acier de 150 \textmu m d'épaisseur, dont les motifs sont découpés au laser. Ils sont fournis par la société DB product. Le Tableau \ref{tab_fab_2} reprend le Tableau \ref{tab_fab} en y indiquant les écrans utilisés dans la fabrication des micropoutres étudiées ici.\\
+
+\begin{table}
+\caption{Tableau résumant la fabrication des micropoutres par sérigraphie avec \emph{N} = l'ordre d'impression. \emph{h} est l'épaisseur des couches après étuvage. Pour les écrans, la notation «200 mesh (50)» indique par exemple l'utilisation d'un écran 200 mesh avec une résine photosensible de 50 \textmu m d'épaisseur.}
+\vspace{0.4cm}
+\label{tab_fab_2}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\emph{N}&Couche 				&Encre							 &\emph{h} (\textmu m)&Écran		\\ \hline \hline 
+1&Plot 						      &PZT								 &35									&200 mesh (50)		\\ \hline 
+2&Couche sacrificielle	&ESL244T (polyester) &35									&70 mesh (50)	\\ \hline 
+3&Électrode inférieure	&ESL8836 (or)				 &15									&325 mesh (15)	\\ \hline 
+4&Partie libérée				&PZT								 &120									&Clinquant	\\ \hline 
+5&Électrode supérieure 	&ESL8836 (or)				 &8										&325 mesh (15)		\\ \hline 
+\end{tabular}
+\end{table}
+
+Les écrans mesh permettent la déposition de formes variées et de couches de différentes épaisseurs  en fonction de la résine et du maillage utilisé. Plus le maillage est fin, plus le motif sera précis et la couche fine. Un espace entre le substrat et l'écran («hors contact» ou «gap») est nécessaire à l'impression, l'écran se déformant et n'étant en contact avec le substrat qu'au passage de la raclette (voir Figure \ref{gap}).
+L'impression avec des clinquants en acier se fait sans hors contact. Ils permettent une impression aux motifs plus précis et plus épais (>100 \textmu m), mais l'impression de couches fines est impossible en raison de la fragilité des feuilles d'acier à partir de 100 \textmu m d'épaisseur.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\linewidth]{images/gap2.jpg}
+\caption{Illustration d'une impression avec un écran mesh. Après le passage de la raclette, l'élasticité de l'écran le décolle du substrat.}
+\label{gap}
+\end{figure} 
+
+\subsection{Sérigraphieuse — paramètres critiques}
+La sérigraphieuse utilisée est une DEK Horizon (entreprise MJB), comportant notamment un système de lecture de mires et d'alignement automatisé. Une photo de la DEK est visible Figure \ref{serigraphieuse}. Des raclettes avec un angle d'attaque de 45° sont utilisée, en  polyuréthane sur les écrans mesh et en acier pour les clinquants.\\
+
+Lors de ces travaux, plusieurs paramètres de la sérigraphieuse se sont révélés critiques :
+\begin{itemize}[label=$\bullet$]
+\item \textbf{Alignement et mires :}
+L'alignement des motifs est automatisé sur la sérigraphieuse utilisée via la reconnaissance vidéo de mires. Ces mires sont incorporées aux motifs des écrans et bouchées avec de la laque d'argent pour faciliter leur reconnaissance. Les mires sont également imprimées sur des substrats vierges avec un écran 400 mesh et une émulsion de 15\textmu m d'épaisseur avant le début de la fabrication des micropoutres dans une encre diélectrique frittée à 850°C. Cependant, il a été remarqué à plusieurs reprise de légères imprécisions qui nécessitent de vérifier l'alignement régulièrement sous peine de voir un décalage apparaître entre les couches imprimées successivement.
+\item \textbf{Pression de la raclette sur les écrans :}
+Pour les raclettes en polyuréthane, l'usure est plus rapide que pour les raclettes en acier (usure non observée sur la durée de ces travaux), d'autant plus avec un mauvais paramétrage de l'impression, comme par exemple une pression de la raclette sur les écrans trop importante. Cela a pour effet d'user prématurément les écrans mesh et surtout de changer l'angle d'attaque de la raclette, ce qui peut empêcher le passage de l'encre à travers l'écran.
+\item \textbf{Vitesse d'impression :}
+La vitesse d'impression doit être adaptée à la viscosité de chaque encre. Plus une encre est visqueuse, plus la vitesse doit être élevée.
+\item \textbf{Vitesse de séparation :}
+Il s'agit de la vitesse à laquelle le substrat est éloigné de l'écran après impression. Ceci est plutôt une conséquence de la distance de hors contact pour les écrans mesh, mais peut poser problème dans le cas des clinquants où une vitesse trop faible pourra laisser des bavures sur les contours des motifs.
+\end{itemize}
+
+Les paramètres d'impression de chaque couche sont fournis en (ANNEXE).
+
+%\begin{figure}
+%
+%\includegraphics{lol}
+%\caption{}
+%\label{serigraphieuse}
+%\end{figure} 
+
+
+\subsection{Encres de sérigraphie}
+
+
+
+\section{Couches sacrificielles}
+
+Au cours de ces travaux, plusieurs encres de sérigraphie ont été testé comme couche sacrificielle et sont décrites dans les sous-parties suivantes. Lors de la fabrication, les couches sont toutes séchées à l'étuve à 120°C pendant 20 minutes après avoir été sérigraphiées (sauf mention contraire explicite), permettant l'évaporation des solvants.
+\subsection{Carbonate de strontium (SrCO$_3$)}
+La couche sacrificielle à base de carbonate de strontium (SrCO$_3$) a été développée au cours de travaux précédents dans le Laboratoire IMS \cite{Lakhmi2014}. Elle est composée d'une base minérale de carbonate de strontium et d'une résine époxy. L’intérêt est que si la décomposition se déroule à environ 300°C pour la résine époxy, la partie minérale reste stable jusqu'à environ 1100°C et peut donc servir de support mécanique pendant le frittage des autres couches qui a lieu à 900°C. La partie minérale restante est ensuite  retirée par voie liquide, via la réaction suivante :
+\begin{center}
+	$SrCO_{3_{(Solide)}} + 2H_3O^+ \Leftrightarrow CO_{2_{(Gaz)}} + Sr^{2+} + H_2O$
+\end{center}
+Concrètement, cette dernière opération se fait dans une solution à 0,5 mol.$^{-1}$ d'acide phosphorique. Cette étape prend néanmoins du temps et est une source possible de dégradation des systèmes libérés de part les manipulations requises.
+La couche est sérigraphiée en une fois, pour une épaisseur sèche d'environ 35 \textmu m.
+	
+\subsection{Polyester (ESL 244t)}
+Il s'agit de l'encre majoritairement utilisée dans ces travaux. L'encre commerciale ESL 244t (par la suite abrégée en « 244t ») est une encre fabriquée par ESL ElectroScience comme couche de protection contre l'humidité. Les informations du fabriquant indiquent un mélange de polymère de type polyester avec un solvant organique (acétate de butyle diglycol). L’intérêt d'une encre sans composant minéral est que l'on peut s'abstenir de l'étape de retrait : la 244t se décompose intégralement entre 250°C et 450°C. L'absence de couche sous-jacente pour « retenir » les couches supportées par la couche sacrificielle peut aussi permettre une meilleure densification lors du frittage.\\
+La 244t est sérigraphiée en deux fois, pour une épaisseur sèche d'environ 35 \textmu m. Un premier séchage à 120°C pendant 20 minutes à lieu entre les deux dépôts, un second ensuite à la même température pendant cette fois-ci 30 minutes. À la différence de la résine époxy utilisée dans l'encre SrCO$_3$, le séchage est en réalité une polymérisation. Le second séchage plus long permet de s'assurer de cette dernière.\\
+La 244t présente un certain vieillissement en pot, à cause de l'évaporation progressive des solvants. Ceci a tendance à augmenter la  viscosité au cours du temps et permet alors une impression de 35 \textmu m d'épaisseur en une fois. Cet aspect étant difficile à contrôler, il reste préférable d'utiliser une encre neuve et d'effectuer l'impression en 2 fois. 
+	
+\subsection{Expérimentation : à base de maïs}
+Cette section rassemble les résultats obtenus lors d'expérimentations faites avec une couche sacrificielle à base de farine de maïs, en parallèle de la fabrication de micropoutres sur 244t, standard dans le reste de ces travaux.\\ 
+
+L'encre est composée d'un véhicule à base de résine époxy (ESL CV59) également fournie par ESL ElectroScience et d'une poudre à base de farine de maïs (VOIR TEMEX). Un mélange dans les proportions 30wt \% véhicule/70wt \% poudre est d'abord réalisé au pilon et au mortier, avant une homogénéisation dans un mélangeur tri-cylindre. Ce mélange est successivement dilué avec le véhicule ESL CV59. Chaque composition est ensuite testée sur la sérigraphieuse, jusqu'au succès du dépôt. Les résultats sont résumés dans le tableau \ref{tab_mais}.
+
+\begin{table}
+\caption{Résumé des résultats des dilutions lors de l'élaboration de l'encre à base de farine de maïs}
+\label{tab_mais}
+\vspace{0.4cm}
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+wt \% de véhicule	& Sérigraphiable \\
+\hline \hline
+30&Non\\\hline
+32&Non\\\hline
+34&Non\\\hline
+36&Oui\\\hline
+\end{tabular}
+
+\end{table}
+
+La composition 36wt \% véhicule/64wt \% poudre se montre sérigraphiable, avec une épaisseur après séchage d'environ 100 \textmu m. En raison d'un manque de disponibilité immédiate des matériaux, et ces travaux  n'étant pas consacrés à l'élaboration d'une nouvelle encre de sérigraphie, une seule série de micropoutres est fabriquée avec cette couche sacrificielle. La totalité des micropoutres est libérée lors du frittage, mais la plupart présente des défauts les rendant non-exploitables :
+\nopagebreak
+\begin{itemize}
+\item fissures à l'encastrement
+\item électrode coupée/sous-imprimée
+\end{itemize}
+Ces défauts sont très probablement dus à l'écart entre le niveau du plot (35 \textmu m) et la couche sacrificielle (100 \textmu m). Ce problème, également rencontré avec la 244t, est plus amplement traité dans la section \ref{pb_gap}. Malgré ces défauts, une micropoutre est polarisée et présente des pics de résonances compatibles avec les fréquences attendues en théorie. 
+
+\section{Encre PZT}
+
+\subsection{Composition}
+L'encre PZT qui constitue le plot et la partie libérée des micropoutres est fabriquée au sein du laboratoire IMS. Elle est composée d'un véhicule organique (ESL V400) et d'une partie minérale. Le véhicule organique (mélange de type solvant-ester REF FICHE SÉCU) permet la mise en encre et la tenue après séchage et jusqu'au frittage. La partie minérale est un mélange de poudres de zirco-titanate de plomb PbZr$_{0.52}$Ti$_{0.48}$O$_3$ (Pz26, Ferroperm) et de LBCu (Li$_2$CO$_3$, Bi$_2$O$_3$, CuO Sigma Aldrish). C'est un additif d'aide au frittage utilisé pour diminuer la température de frittage du PZT \cite{Medesi2014,Lakhmi2011}. La composition utilisée dans ces travaux est résumée dans le Tableau \ref{compo_PZT}.\\
+Les poudres composantes du LBCu sont broyées dans un broyeur planétaire avec de l'éthanol et des billes de zircon pendant 12h. Après séchage les poudres de PZT, Li$_2$CO$_3$, Bi$_2$O$_3$ et CuO sont pesées puis mélangées au mélangeur planétaire dans un flacon contenant 8 billes en agate et 40 ml d'éthanol pendant une nuit. Après séchage, le véhicule et la poudre sont mélangés au mortier puis dans un mélangeur tri-cylindre, qui permet de cisailler l'encre, cassant les agglomérats et homogénéisant le mélange. La proportion véhicule/poudre est discutée dans le paragraphe suivant.
+
+\begin{table}
+\caption{Composition de la partie minérale de l'encre PZT.}
+\label{compo_PZT}
+\vspace{0.4cm}
+\centering
+\begin{tabular}{|c|r|}
+\hline
+Poudre	& wt \% \\
+\hline \hline
+PbZr$_{0.52}$Ti$_{0.48}$O$_3$ &97,00\\\hline
+Li$_2$CO$_3$&0,80\\\hline
+Bi$_2$O$_3$&1,20\\\hline
+CuO&1,00\\\hline
+\end{tabular}
+
+\end{table}
+
+\subsection{Optimisations}
+\subsubsection{Encres mesh et clinquant}
+Deux proportions différentes de véhicule sont utilisées pour les écrans mesh et les clinquants. Il est avantageux d'avoir une encre assez fluide pour un écran mesh, où il est préférable que l'encre «lisse» après impression pour atténuer la marque laissée par les mailles. Une encre plus visqueuse permet en revanche une meilleure tenue du motif avec un clinquant, où l'encre n'est pas soutenue par un maillage et le dépôt est plus épais. Une plus faible proportion de véhicule est également souhaitable pour le séchage de couches épaisses afin d'éviter les fissures dues à l'évaporation du solvant. De plus aucun lissage post-impression n'est nécessaire. (PHOTOS) Les proportions optimales sont obtenues par essais successifs à la sérigraphieuse jusqu'à l'obtention de l'aspect désiré. Les compositions  finales utilisées sont indiquées dans le Tableau \ref{compo_PZT2}. Les écarts indiqués correspondent aux écarts aux valeurs cibles obtenus lors des pesées.\\
+La viscosité des encres a été mesurée à l'aide d'un rhéomètre plan-plan (voir Figure \ref{viscosity_PZT}). 
+
+\begin{table}
+\caption{Proportions poudre/véhicule organique de l'encre PZT. Une encre est élaborée pour les impressions faites avec un écran mesh et une autre pour les impressions avec les clinquants.}
+\label{compo_PZT2}
+\vspace{0.4cm}
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Type d'écran&PZT+LBCu (wt \%)&ESL V400 (wt \%)\\\hline \hline
+Clinquants&85,7$\pm$0,2											&	14,3$\pm$0,2\\\hline
+Mesh			&84,1$\pm$0,3											&15,9$\pm$0,3\\\hline
+\end{tabular}
+\end{table}
+
+
+\pgfplotstabletypeset{viscosity_PZT.dat}
+\vspace{1cm}
+\begin{tikzpicture}
+\begin{axis}[
+  xlabel=Taux de cisaillement (s$^{-1}$),
+  ylabel=Viscosité (Pa.s)]
+\end{axis}
+\end{tikzpicture}
+
+\begin{figure}
+\includegraphics{Images/viscosity_PZT.eps}
+\caption{Viscosité des encres PZT (non-broyé) pous les écrans mesh et clinquants.}
+\label{viscosity_PZT}
+\end{figure}
+
+\subsubsection{Broyage de la poudre PZT}
+Dans les compositions précédentes, seul les poudres de l'aide au frittage LBCu sont broyées. La poudre PZT est à son tour broyée selon le même procédé et ceci dans l'espoir d'améliorer les propriétés mécaniques en favorisant un meilleur frittage et une plus faible porosité avec la diminution de la taille des grains. La diminution de la taille des grains a pour conséquence d'augmenter la surface totale de la poudre, rendant nécessaire l'adaptation des proportions poudre/véhicule tel qu'indiqué Tableau \ref{compo_PZT3}.
+
+\begin{table}
+\caption{Proportions poudre/véhicule organique révisées de l'encre PZT \textbf{broyé}.}
+\label{compo_PZT3}
+\vspace{0.4cm}
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Type d'écran&PZT+LBCu (wt \%)&ESL V400 (wt \%)\\\hline \hline
+Clinquants&XXX$\pm$XX											&XXX$\pm$XX\\\hline
+Mesh			&XXX$\pm$XX											&XXX$\pm$XX\\\hline
+\end{tabular}
+\end{table}
+
+
+\subsection{Améliorations possibles}
+Les encres PZT élaborées sont réalisées empiriquement par essais successifs à la sérigraphieuse pour chaque proportion poudre/véhicule. 
+
+
+ 
+\section{Électrodes}
+
+\subsection{Encre à base d'or}
+\subsubsection{Composition}
+\subsubsection{Interactions avec les autres couches}
+
+\subsection{Encre à base d'argent}
+\subsubsection{Composition}
+\subsubsection{Différences par rapport à l'or}
+\subsection{Améliorations possibles}
+	
+\section{Frittage et polarisation}
+
+\subsection{Frittage}
+Profile et optimisation
+\subsection{Polarisation}
+\subsubsection{Principe}
+\subsubsection{Améliorations apportées}
+
+\section{Points critiques}
+
+\subsection{Jonction plot-couche sacrificielle}
+\label{pb_gap}
+\subsection{Compatibilité des encres}
+Solvants, coeff therm
+\section{Caractérisation mécanique}
+\subsection{Densité, porosité et module d'Young}
+\subsection{Adhésion sur substrat}
+
+\section{Conclusion}
+
+
+
+\bibliographystyle{apalike}
+\bibliography{Fabrication_biblio}
+
+\end{document}

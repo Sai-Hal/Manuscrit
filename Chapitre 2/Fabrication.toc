@@ -1,0 +1,51 @@
+\babel@toc {french}{}
+\contentsline {chapter}{\numberline {II}S\'erigraphie de micropoutres r\'esonantes}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Agencement des couches et g\'eom\'etrie}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}La s\'erigraphie}{4}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Principe g\'en\'eral}{4}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}\'Ecrans}{4}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}S\'erigraphieuse \IeC {\textemdash } param\`etres critiques}{7}{subsection.2.2.3}
+\contentsline {paragraph}{Shims}{8}{section*.12}
+\contentsline {paragraph}{Alignement et mires}{8}{section*.13}
+\contentsline {paragraph}{Pression de la raclette sur les \'ecrans}{9}{section*.14}
+\contentsline {paragraph}{Vitesse d'impression}{9}{section*.15}
+\contentsline {paragraph}{Vitesse de s\'eparation}{9}{section*.16}
+\contentsline {paragraph}{Ordre et direction de l'impression}{9}{section*.17}
+\contentsline {subsection}{\numberline {2.2.4}Encres de s\'erigraphie}{9}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Couches sacrificielles}{10}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Carbonate de strontium (SrCO$_3$)}{10}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Polyester (ESL 244t)}{11}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Exp\'erimentation : \`a base de ma\IeC {\"\i }s}{11}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Encre PZT}{12}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Composition}{12}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Optimisations}{13}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.a}Encres mesh et clinquant}{13}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.b}Encre PZT broy\'e}{14}{subsubsection.2.4.2.2}
+\contentsline {subsubsection}{\numberline {2.4.2.c}Am\'eliorations ult\'erieures possibles}{14}{subsubsection.2.4.2.3}
+\contentsline {subsection}{\numberline {2.4.3}Impressions plot et partie lib\'er\'ee}{14}{subsection.2.4.3}
+\contentsline {subsubsection}{\numberline {2.4.3.a}Proc\'ed\'e classique}{14}{subsubsection.2.4.3.1}
+\contentsline {subsubsection}{\numberline {2.4.3.b}Variation d'\'epaisseur de la partie lib\'er\'ee}{14}{subsubsection.2.4.3.2}
+\contentsline {section}{\numberline {2.5}\'Electrodes}{15}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Encre \`a base d'or}{15}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Encre \`a base d'argent}{15}{subsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.2.a}Composition}{15}{subsubsection.2.5.2.1}
+\contentsline {section}{\numberline {2.6}Jonction plot-couche sacrificielle}{16}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}\'Epaisseur plot/couche sacrificielle}{16}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Alignement plot/couche sacrificielle}{16}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Ordre et direction d'impression}{16}{subsection.2.6.3}
+\contentsline {section}{\numberline {2.7}Frittage et polarisation}{17}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Frittage}{17}{subsection.2.7.1}
+\contentsline {subsubsection}{\numberline {2.7.1.a}Profil utilis\'e}{17}{subsubsection.2.7.1.1}
+\contentsline {subsubsection}{\numberline {2.7.1.b}\'Evaporation de PbO}{17}{subsubsection.2.7.1.2}
+\contentsline {subsection}{\numberline {2.7.2}Polarisation}{20}{subsection.2.7.2}
+\contentsline {subsubsection}{\numberline {2.7.2.a}Principe}{20}{subsubsection.2.7.2.1}
+\contentsline {subsubsection}{\numberline {2.7.2.b}Am\'eliorations apport\'ees}{20}{subsubsection.2.7.2.2}
+\contentsline {section}{\numberline {2.8}Interactions entre les couches}{21}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}PZT broy\'e : fissures dans l'\'electrode sup\'erieure}{21}{subsection.2.8.1}
+\contentsline {subsubsection}{\numberline {2.8.1.a}Adaptation des compositions d'encres}{21}{subsubsection.2.8.1.1}
+\contentsline {subsubsection}{\numberline {2.8.1.b}Adaptation du profil de frittage au PZT broy\'e}{21}{subsubsection.2.8.1.2}
+\contentsline {subsection}{\numberline {2.8.2}Solvants et couche sacrificielle}{23}{subsection.2.8.2}
+\contentsline {section}{\numberline {2.9}Densification}{23}{section.2.9}
+\contentsline {subsection}{\numberline {2.9.1}Porosit\'e et masse volumique}{23}{subsection.2.9.1}
+\contentsline {subsection}{\numberline {2.9.2}Retrait longitudinal}{26}{subsection.2.9.2}
+\contentsline {section}{\numberline {2.10}Conclusion}{27}{section.2.10}

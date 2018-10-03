@@ -1,0 +1,90 @@
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[12pt,twoside]{report}
+\usepackage[french]{babel}
+\usepackage[ansinew]{inputenc}   % clavier azerty
+\usepackage[T1]{fontenc} 
+\usepackage{textgreek}				% symboles grècques sans italique
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+
+%----------------------------------------------------------------------------------------
+%	RENEW COMMANDS (Français)
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\contentsname}{Sommaire} %Renomme la Table des matières en "Sommaire"
+\renewcommand{\tablename}{Tableau} %"Table 1" devient "Tableau 1"
+\addto\captionsfrench{\renewcommand{\chaptername}{Chapitre}} %"Chapter 1" devient "Chapitre 1"
+
+
+
+
+% Begin document________________________________________________________________
+\begin{document}
+
+\input{title_page}
+
+\begin{abstract}
+Your abstract.
+\end{abstract}
+\cleardoublepage
+
+%\input{Introduction}
+%\cleardoublepage
+%
+%\input{Chapitre 1}
+%\cleardoublepage
+%
+%\input{Fabrication}
+%\cleardoublepage
+%
+%\input{Méthodes et caractérisations}
+%\cleardoublepage
+%
+%\input{Expériences}
+%\cleardoublepage
+%
+%\input{Conclusion}
+%\cleardoublepage
+
+
+\subsection{Comments}
+
+Comments can be added to the margins of the document using the \todo{Here's a comment in the margin!} todo command, as shown in the example on the right. You can also add inline comments too:
+
+\todo[inline, color=green!40]{This is an inline comment.}
+
+
+
+%% Preamble______________________________________________________________________
+%
+%\pagenumbering{roman} 				% Begin roman page numbering (i,ii,...)
+%
+%\input{chapters/preamble}
+%
+%% Chapters______________________________________________________________________
+%
+%\pagestyle{fancy}               	% Fancy headings
+%\pagenumbering{arabic}				% Begin arabic page numbering (1,2,...)
+%
+%\input{chapters/introduction}
+%\cleardoublepage
+%\input{chapters/howto}
+%\cleardoublepage
+%% \input{}
+%% \cleardoublepage
+%% \input{}
+%% \cleardoublepage
+%% ...
+%
+%% Appendix______________________________________________________________________
+%\appendix
+%\input{chapters/appendix}
+
+
+% Bibliography__________________________________________________________________
+% Literature (Additional references can be added to the .bib-file manually, or by using, for example, the free application JabRef). Compile in the following order: latex -bibtex -latex -latex
+\end{document}
